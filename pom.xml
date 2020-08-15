@@ -4,7 +4,7 @@
 	<groupId>com.demo</groupId>
 	<artifactId>SpringDocker</artifactId>
 	<packaging>war</packaging>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>${env.BUILD_NUMBER}-SNAPSHOT</version>
 	<name>SpringDocker Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 
