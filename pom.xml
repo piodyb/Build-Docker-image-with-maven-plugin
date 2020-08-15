@@ -54,7 +54,7 @@
 					<entryPoint>["java", "-jar", "/${project.build.finalName}.war"]</entryPoint>
 					<!-- copy the service's jar file from target into the root directory 
 						of the image -->
-					<repository>${project.artifactId}</repository>
+					<repository>127.0.0.1:5000/${project.artifactId}</repository>
     					<tag>${project.version}</tag>
 					<resources>
 						<resource>
