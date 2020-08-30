@@ -16,7 +16,7 @@ spec:
       containers:
       - name: web-app
         image:127.0.0.1:32000/dockerexample:41
----
+
 apiVersion: v1
 kind: Service
 metadata:
