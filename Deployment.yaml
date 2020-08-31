@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: web-app
-        image: 127.0.0.1:32000/dockerexample:41
+        image: 127.0.0.1:32000/dockerexample:42
 ---
 apiVersion: v1
 kind: Service
